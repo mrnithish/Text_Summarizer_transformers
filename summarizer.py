@@ -1,0 +1,5 @@
+from transformers import pipeline
+
+summary=pipeline("summarization")
+article="Accidents are a major issue in cities like Chennai, Coimbatore, Bangalore, and Mumbai, among others. India has a high rate of road accidents, and they are one of the leading causes of deaths and injuries in the country. According to the latest available data from the Ministry of Road Transport and Highways, in 2019, there were a total of 449,002 reported road accidents in India, resulting in 151,113 deaths and 451,361 injuries.Unfortunately, about 30 percentage of deaths are caused by delayed ambulances. In today scenario, the number of accidents per day is increasing exponentially, as is the number of deaths caused by them.To reduce the deaths caused by delayed ambulances, we need to find a solution that shows the shortest distance between the ambulance and the hospital without traffic jams."
+summary(article,max_length=130,min_length=10,do_sample=False)
