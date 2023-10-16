@@ -55,10 +55,7 @@ You can customize the script to handle specific languages, summarization models,
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-MIT License
 
-```
-Additionally, you need to create a `LICENSE.md` file and specify the terms of the MIT License within it. Here's an example of what the `LICENSE.md` file might contain:
 
 ```
 MIT License
